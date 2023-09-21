@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+    /* font-family: 'Nova Square', cursive; 
+    
+    font-family: 'Rajdhani', sans-serif; */
+
+  /* navbar */
+.logo {
+          width: 100px;
+   
+}
+   
+.link {
+          text-decoration: none;
+          color: grey;
+          font-family: 'Rajdhani', sans-serif;
+}
+   
+/* header */
+header {
+          width: 100vw;
+          height: 65vh;
+          background: url(./mountains2.png), linear-gradient(white, rgba(255, 255, 255, 0)), url(./switzerland-862870_1920.jpg);
+          background-position: center;
+          background-size: cover;
+}
+   
+h1 {
+          font-family: 'Nova Square', cursive;
+          color: darkred;
+          font-size: 50px;
+          font-weight: 500;
+          letter-spacing: 3rem;
+}
+   
+/* sfondo */
+.partecentrale {
+          background-color: #ececec;
+          background-image: url(./trees2.png);
+          background-repeat: no-repeat;
+          background-position: bottom;
+          background-size: contain;
+}
+   
+/*  virgolette e scritta certale*/
+.quote {
+          font-family: 'Rajdhani', sans-serif;
+          font-style: oblique;
+          font-weight: 500;
+          color: gray;
+          font-size: large;
+}
+
+.quote::after {
+          content: '"';
+          font-size: 60px;
+          color: darkred;
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: bold;
+          position: absolute;
+          font-style: italic;
+          top: 40px;
+}
+
+.quote::before {
+          content: '"';
+          font-size: 60px;
+          color: darkred;
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: bold;
+          position: absolute;
+          font-style: italic;
+          rotate: 180deg;
+          transform: translateX(80%);
+          top: -80%;
+}
+   
+/*  icone */
+.linea {
+          margin-top: 100px;
+          text-align: center;
+          width: 200px;
+          position: relative;
+          text-transform: lowercase;
+          font-family: 'Rajdhani', sans-serif;
+          font-size: small;
+          font-weight: 600;
+   
+}
+
+.linea::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background-color: darkred;
+}
+
+.linea::after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          bottom: -8px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: white;
+          border-radius: 50%;
+          border: 2px solid darkred;
+}
+   
+.icone {
+          color: darkred;
+          font-size: 40px;
+          padding-bottom: 10px;
+}
+   
+/*  sottotitoli */
+h3 {
+          font-family: 'Nova Square', cursive;
+          color: darkred;
+          font-weight: 400;
+}
+   
+.parag {
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 500;
+          color: gray;
+}
+   
+.riga2 {
+margin-top: 150px;
+}
+   
+.spazio {
+          width: 500px;
+}
+   
+.butt {
+          border: 0;
+          background-color: darkred;
+          color: white;
+          font-family: 'Rajdhani', sans-serif;
+          padding: 6px 30px;
+          margin-top: 80px;
+          margin-bottom: 140px;
+}
+   
+/* seconda sezione */
+.sezione2 {
+          background: url(./single.png);
+          background-repeat: no-repeat;
+          background-position: bottom right;
+}
+   
+.titlista {
+          font-family: 'Nova Square', cursive;
+          color: darkred;
+          font-weight: 400;
+          font-size: 30px;
+       }
+   
+h5 {
+          font-family: 'Rajdhani', sans-serif;
+          color: darkred;
+          font-weight: 600;
+}
+   
+.lista {
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 500;
+ }
+   
+.redriga {
+          position: relative;
+}
+   
+.redriga2 {
+   position: relative;
+}
+   
+.redriga::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 3px;
+          height: 120%;
+          background-color: darkred;
+}
+   
+.redriga::before {
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 0;
+          left: -7px;
+          transform: translateY(0%);
+          background-color: white;
+          border-radius: 50%;
+          border: 2px solid darkred;
+          z-index: 1;
+}
+   
+.redriga2::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 3px;
+          height: 90%;
+          background-color: darkred;
+}
+   
+.redriga2::before {
+          content: "";
+          position: absolute;
+          width: 18px;
+          height: 18px;
+          top: 0;
+          left: -7px;
+          transform: translateY(0%);
+          background-color: white;
+          border-radius: 50%;
+          border: 2px solid darkred;
+          z-index: 1;
+}
+   
+/* our team */
+.team {
+          background-color: #ececec;
+          background-image: url(./other.png);
+          background-repeat: no-repeat;
+          background-position: bottom;
+          background-size: contain;
+}
+   
+.our {
+          margin-top: 100px;
+}
+   
+.fototeam {
+          background-image: url(./mountain-547363_1920.jpg);
+          border-radius: 50%;
+          width: 130px;
+          height: 130px;
+          background-size: cover;
+          position: relative;
+          margin-top: 40px;
+}
+   
+.fototeam::after {
+          content: "";
+          position: absolute;
+          width: 150px;
+          height: 150px;
+          top: -10px;
+          left: -9px;
+          transform: translateY(0%);
+          background-color: #ececec00;
+          border-radius: 50%;
+          border: 2px solid darkred;
+}
+   
+h6 {
+          font-family: 'Rajdhani', sans-serif;
+          font-size: medium;
+          margin-top: 28px;
+          color: darkred;
+          font-weight: 600;
+}
+   
+.teamtesto {
+          font-family: 'Rajdhani', sans-serif;
+          font-size: small;
+          font-weight: 500;
+          font-style: italic;
+}
+   
+.icone2 {
+          color: darkred;
+          font-size: 15px;
+          padding: 0 10px;
+}
+   
+/* our benefit */
+.benefit {
+          margin-top: 130px;
+}
+   
+.btesto {
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 600;
+}
+   
+.fotoben {
+          background-image: url(./landscape-975091_1920.jpg);
+          border-radius: 50%;
+          width: 200px;
+          height: 200px;
+          background-size: cover;
+          position: relative;
+}
+   
+.fotoben::after {
+          content: "";
+          position: absolute;
+          width: 220px;
+          height: 220px;
+          top: -10px;
+          left: -9px;
+          transform: translateY(0%);
+          background-color: #ececec00;
+          border-radius: 50%;
+          border: 2px solid darkred;
+}
+   
+.fotoben2 {
+          background-image: url(./fog.jpg);
+          border-radius: 50%;
+          width: 200px;
+          height: 200px;
+          background-size: cover;
+          position: relative;
+          margin-bottom: 400px;
+}
+   
+.fotoben2::after {
+          content: "";
+          position: absolute;
+          width: 220px;
+          height: 220px;
+          top: -10px;
+          left: -9px;
+          transform: translateY(0%);
+          background-color: #ececec00;
+          border-radius: 50%;
+          border: 2px solid darkred;
+}
+   
+/* footer */
+.foot {
+          background-color: darkred;
+          color: white;
+}
+   
+h4 {
+          font-family: 'Nova Square', cursive;
+          font-size: 30px;
+}
+   
+.minitext {
+          font-family: 'Rajdhani', sans-serif;
+          font-weight: 500;
+          font-size: 20px;
+}
+   
+.parag3 {
+          font-family: 'Rajdhani', sans-serif;
+          font-size: small;
+}
+   
+.links {
+          text-decoration: none;
+          font-family: 'Rajdhani', sans-serif;
+          color: white;
+          font-size: 12px;
+}
